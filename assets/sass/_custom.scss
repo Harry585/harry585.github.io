@@ -1,0 +1,25 @@
+// Site-specific overrides (replaces the theme's empty _custom.scss).
+
+// Avatar: 1.5x the theme's 70px default. Keep in sync with layouts/_partials/bio.html.
+.author .author-avatar {
+  width: 105px;
+  height: 105px;
+}
+
+// Post images
+.page-content {
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  figure {
+    margin: 1.5em 0;
+
+    figcaption {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{{- /*
+  Image render hook: runs for every Markdown image, ![alt](src "title").
+  Images that live in the post's page bundle are resized to WebP with a srcset
+  (which also strips EXIF data such as GPS location). Anything else (remote URLs,
+  files in static/, GIFs/SVGs) is passed through unchanged.
+  A "title" becomes a caption.
+*/ -}}
+{{- $src := .Destination -}}
+{{- $img := .Page.Resources.Get $src -}}
+{{- $processable := false -}}
+{{- with $img -}}
+  {{- $processable = in (slice "jpeg" "png" "webp" "tiff" "bmp") .MediaType.SubType -}}
+{{- end -}}
+{{- if .Title }}<figure>{{ end -}}
+{{- if $processable -}}
+  {{- $widths := slice 480 800 1200 1600 -}}
+  {{- $srcset := slice -}}
+  {{- range $widths -}}
+    {{- if le . $img.Width -}}
+      {{- $r := $img.Resize (printf "%dx webp q80" .) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $fallback := $img.Resize (printf "%dx webp q80" (math.Min 1200 $img.Width | int)) -}}
+  <img src="{{ $fallback.RelPermalink }}"
+    {{- with $srcset }} srcset="{{ delimit . ", " }}" sizes="(max-width: 720px) 100vw, 720px"{{ end }}
+    width="{{ $fallback.Width }}" height="{{ $fallback.Height }}"
+    alt="{{ .PlainText }}" loading="lazy" decoding="async">
+{{- else -}}
+  <img src="{{ with $img }}{{ .RelPermalink }}{{ else }}{{ $src | safeURL }}{{ end }}" alt="{{ .PlainText }}" loading="lazy" decoding="async">
+{{- end -}}
+{{- with .Title }}<figcaption>{{ . | markdownify }}</figcaption></figure>{{ end -}}

@@ -1,3 +1,34 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://harry585.github.io/' # used to build absolute urls in generated site
+locale = 'en-gb'
+title = 'Harry'
+theme = 'hugo-blog-awesome'
+
+[params]
+sitename = "Harry Wu"
+defaultColor = "auto" # auto | light | dark
+description = "I do AI research and build infrastructure."
+mainSections = ['posts']
+
+[params.author]
+avatar = "avatar.jpeg"
+name = "Harry Wu"
+intro = "Harry Wu"
+description = "If you want the future to be good, you must make it so."
+
+# Only publish bundle files that a template links to (e.g. the resized images from
+# layouts/_markup/render-image.html), not the full-size originals with their EXIF data.
+[[cascade]]
+    [cascade.build]
+    publishResources = false
+
+[menu]
+    [[menu.main]]
+    name = "Posts"
+    pageRef = "posts"
+    url = "/posts/"
+    weight = 1
+    [[menu.main]]
+    name = "About"
+    pageRef = "about"
+    url = "/about/"
+    weight = 2
