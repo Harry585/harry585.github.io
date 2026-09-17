@@ -6,7 +6,7 @@ title = 'From Darkness, Light'
 
 ![A street intersection in Munich, with pedestrians, cars and parked bikes](munich.jpeg)
 
-I took this photo on my last day together with Anna-Lena in Munich. It is in many ways an extremely ordinary photo. Pedestrians stroll along the street; a bus drives slowly towards the intersection; bikes are parked haphazardly next to the tram station. It is a spontaneous assembly of everyday lives.
+I took this photo on my last day together with Anna-Lena in Munich. It is in many ways extremely ordinary. Pedestrians stroll along the street; a bus drives slowly towards the intersection; bikes are parked haphazardly next to the tram station. It is a spontaneous assembly of everyday lives.
 
 "Are you really photographing this street?" Anna-Lena asks incredulously. "You’re being such a tourist!"
 
