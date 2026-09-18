@@ -6,7 +6,7 @@ theme = 'hugo-blog-awesome'
 [params]
 sitename = "Harry Wu"
 defaultColor = "auto" # auto | light | dark
-description = "I do AI research and build infrastructure."
+description = "Essays and personal posts from Harry Wu."
 mainSections = ['posts']
 
 [params.author]

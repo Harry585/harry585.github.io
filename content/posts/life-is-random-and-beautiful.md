@@ -1,7 +1,7 @@
 +++
 date = '2026-08-20'
 draft = false
-title = 'Life Is Random and Beautiful'
+title = 'Life is Random and Beautiful'
 +++
 
 I am sitting on the balcony in Eliska’s apartment on the last night before we leave. It is 1:14am. Outside, there is a shadowy row of apartments facing us, solitary cars that whoosh across the road, and a parking lot bathed in the gentle glow of streetlights. The city lights twinkle in the distance, just like they did the night when we chatted on the hilltop overlooking Prague past midnight.

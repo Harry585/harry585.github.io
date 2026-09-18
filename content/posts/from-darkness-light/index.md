@@ -6,9 +6,11 @@ title = 'From Darkness, Light'
 
 ![A street intersection in Munich, with pedestrians, cars and parked bikes](munich.jpeg)
 
-I took this photo on my last day together with Anna-Lena in Munich. It is in many ways extremely ordinary. Pedestrians stroll along the street; a bus drives slowly towards the intersection; bikes are parked haphazardly next to the tram station. It is a spontaneous assembly of everyday lives.
+I took this photo on my last day together with my friend Anna-Lena in Munich. It is in many ways completely unremarkable. Pedestrians stroll along the street; a bus drives slowly towards the intersection; bikes are parked haphazardly next to the tram station. It is a spontaneous assembly of everyday lives.
 
 "Are you really photographing this street?" Anna-Lena asks incredulously. "You’re being such a tourist!"
+
+Earlier that day, we had wandered through the former royal palace of Bavaria. For her, this was just another German street.
 
 "You don’t understand," I reply. "This sends shivers down my spine."
 
@@ -18,7 +20,7 @@ But the ordinariness of that scene is what I find extraordinary. I think that if
 
 ---
 
-A few days later, I am snacking on grapes with Malek and Louis in a park on a tranquil afternoon. Malek studies in Munich on a scholarship from Tunisia. In just a few years, she has built a new life for herself in this country.
+A few days later, I am snacking on grapes with Malek and her boyfriend Louis in a park on a tranquil afternoon. Malek studies in Munich on a scholarship from Tunisia. In just a few years, she has built a new life for herself in this country.
 
 "I think if every country in the world was like Germany, the world would be perfect," she muses.
 
