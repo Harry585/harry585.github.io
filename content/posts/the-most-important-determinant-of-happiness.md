@@ -8,7 +8,7 @@ I am meandering around the empty dinner tables at Acacia Hall when Rebecca calls
 
 I haven’t seen her in a while. Rebecca, apart from being a bit miffed at moving back in with her parents, is her usual bubbly self.
 
-She invites me to her wedding, scheduled in almost a year. I’m surprised! I remember her fondly, but we haven’t really kept in touch. I’m not sure yet about my plans, so I say I’ll update her later. She insists that because I’m travelling from so far away, she doesn’t expect a gift. Of course, I think, she’s just being polite.
+She invites me to her wedding, scheduled in almost a year. I’m caught off guard. I remember her fondly, but we haven’t really kept in touch. It would be exciting, but I’m not sure what I'll be doing then, so I say I’ll confirm later. She insists that because I’m travelling from so far away, she doesn’t expect a gift. Of course, I think, she’s just being polite.
 
 Only much later do I find out that weddings cost over two hundred dollars per person.
 

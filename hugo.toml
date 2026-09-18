@@ -1,4 +1,4 @@
-baseURL = 'https://harry585.github.io/' # used to build absolute urls in generated site
+baseURL = 'https://harrywu.au/' # used to build absolute urls in generated site
 locale = 'en-gb'
 title = 'Harry'
 theme = 'hugo-blog-awesome'

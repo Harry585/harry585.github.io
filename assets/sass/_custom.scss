@@ -1,9 +1,13 @@
 // Site-specific overrides (replaces the theme's empty _custom.scss).
 
-// Avatar: 1.5x the theme's 70px default. Keep in sync with layouts/_partials/bio.html.
+// Avatar. Keep in sync with layouts/_partials/bio.html.
 .author .author-avatar {
-  width: 105px;
-  height: 105px;
+  width: 115px;
+  height: 115px;
+}
+
+.author {
+  margin-bottom: 2rem;
 }
 
 // Post images
@@ -20,6 +24,46 @@
 
     figcaption {
       text-align: center;
+    }
+  }
+}
+
+// Email sign-up form (layouts/_partials/subscribe.html)
+.subscribe {
+  margin: 2em 0;
+
+  label {
+    display: block;
+    margin-bottom: 0.6em;
+  }
+
+  .subscribe_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  input[type="email"] {
+    flex: 1 1 14em;
+    padding: 0.5em 0.75em;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    padding: 0.5em 1em;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
     }
   }
 }
